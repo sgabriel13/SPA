@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA-Todos</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="barra__navegacion">
+            <ul class="barra__menu">
+                <li>Promociones</li>
+                <li>Fotos</li>
+                <li>Servicios</li>
+                <li>Mapa</li>
+                <li>Contacto</li>
+            </ul>  
+
+        </nav>
+        <div class="iconos__navegacion">
+            <img class="cuenta__user" src="images/user.png" alt="Este es un usuario">
+            <div class="cuenta__navegacion">Mi cuenta</div>
+            <div class="es__idioma">ES</div>
+            <img class="bandera__idioma" src="images/flag.png" alt="Esta es una bandera">
+            <img class="flecha__idioma" src="images/arrow.png" alt="Esta es una flecha">
+        </div>   
+
+
+    
+
+    </header>
+
+    <main>
+        <h1 class="titulo__box1">SPA - Todos</h1>
+        <p class="intro__box1">
+            Regálate un momento de paz y
+            consiente a tu piel en el mejor lugar
+        </p>
+        <div class="container__imagen">
+            <img src="images/main.png" alt="Este es el fondo">
+        </div>
+
+        <div class="container__reserva">
+
+            <label id="lblReserva" for="txtReserva">Reserva tu cita: </label>
+            <input type="text" id="txtReserva" name="reserva">
+            <label id="lblCodigo" for="txtCodigo">Código Promocional:</label>
+            <input type="text" id="txtCodigo" name="codigo" placeholder="CODIGO"></input>
+
+        </div>
+
+        <div class="container__cartas">
+            <div class="card__pies">
+                <div class="titulo__card">
+                    Masaje de pies
+                </div>
+
+                <div>
+                    <img src="images/pies.png" alt="Esta es una imagen de un masaje de pies">
+                </div>
+                <p id="description">Esta es una descripción de la opción
+                    en cuestión.....</p>
+                <div class="container__precio">
+                    <p id="precio"> $65</p>
+                    <button class="button">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="card__relajante">
+                <div class="titulo__card">
+                    Masaje relajante
+                </div>
+
+                <div>
+                    <img src="images/relajante.png" alt="Esta es una imagen de un masaje relajante">
+                </div>
+                <p id="description">Esta es una descripción de la opción en
+                    cuestión.....</p>
+                <div class="container__precio">
+                    <p id="precio"> $60</p>
+                    <button class="button">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="card__bambu">
+                <div class="titulo__card">
+                    Masaje con bambú
+                </div>
+
+                <div>
+                    <img src="images/bambu.png" alt="Esta es una imagen de un masaje con bambú">
+                </div>
+                <p id="description">Esta es una descripción de la opción en
+                    cuestión.....</p>
+                <div class="container__precio">
+                    <p id="precio"> $60</p>
+                    <button class="button">RESERVAR</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container__beneficios">
+
+            <div class="titulo__beneficios">
+                Hazte socio y prueba nuestros beneficios
+            </div>
+
+            <div class="clase__gold">
+                <div class="circle">
+                    <img src="images/gold.png" alt="Esta es el socio gold">
+                </div>
+                <p id="tipo__socio">GOLD</p>
+                <button class="button__socio">VER CONDICIONES</button>
+                <ul class="list__beneficio">
+                    <li>Gimnasio</li>
+                    <li>Piscina</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </div>
+
+            <div class="clase__premium">
+                <div class="circle">
+                    <img src="images/premium.png" alt="Esta es el socio premium">
+                </div>
+                <p id="tipo__socio">PREMIUM</p>
+                <button class="button__socio">VER CONDICIONES</button>
+                <ul class="list__beneficio">
+                    <li>Gimnasio</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </div>
+
+
+            <div class="clase__plate">
+                <div class="circle">
+                    <img src="images/plate.png" alt="Esta es el socio plate">
+                </div>
+                <p id="tipo__socio">PLATE</p>
+                <button class="button__socio">VER CONDICIONES</button>
+                <ul class="list__beneficio">
+                    <li>Tratamientos faciales</li>
+
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="barra__navegacion-footer">
+            <ul class="iconos__politicas">
+
+                <li>Politicas de cookies</li>
+                <li>Aviso legal</li>
+                <li>Proteccion de datos</li>
+                <li>Mapa del sitio</li>
+            </ul>
+        </div>
+        <div class="redes__sociales">
+            <div class="seguir">Síguenos en </div>
+            <img src="images/rs_facebook.png">
+            <img src="images/rs_twiter.png">
+            <img src="images/rs_youtube.png">
+        </div>
+
+    </footer>
+</body>
+</html>

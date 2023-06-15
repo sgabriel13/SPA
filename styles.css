@@ -1,0 +1,462 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* TIPO DE FUENTE */
+
+@font-face {
+    font-family: Romanesco;
+    src: url("fuentes/Romanesco.ttf");
+}
+
+
+@font-face {
+    font-family: Inter;
+    src: url("fuentes/Inter.ttf");
+}
+
+header {
+
+    background-color: #a3a656;
+    height: 70px;
+}
+
+.barra__navegacion {
+    display: inline-block;
+
+
+}
+
+.barra__menu {
+
+
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 23px;
+
+
+}
+
+.barra__menu li {
+    display: inline-block;
+    margin-right: 23px;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.barra__menu li:hover {
+    color: #ffff00;
+}
+
+.iconos__navegacion {
+    height: 70px;
+    width: 290px;
+    float: right;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cuenta__navegacion:hover {
+    color: #ffff00;
+}
+
+.es__idioma:hover {
+    color: #ffff00;
+}
+
+.cuenta__navegacion {
+
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+
+
+}
+
+.es__idioma {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 60px;
+
+
+}
+
+.cuenta__user {
+    margin-top: 1px;
+}
+
+.bandera__idioma {
+    margin-top: 2px;
+    margin-right: 7px;
+    margin-left: 9px;
+}
+
+.flecha__idioma {
+    margin-top: 5px;
+    margin-right: 13px;
+
+}
+
+/*Main*/
+
+.container__imagen img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*Titulos*/
+
+.titulo__box1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 275px;
+    left: 190px;
+    font-family: 'Romanesco';
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.intro__box1 {
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 400px;
+    left: 190px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/*Reservacion*/
+
+.container__reserva {
+    
+    height: 100px;
+    background: #f2f6f6;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+#lblReserva {
+    width: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-left: 350px;
+}
+
+#lblCodigo {
+    width: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+input::placeholder {
+    color: #9E9A9A;
+    margin-right: 15px
+}
+
+
+input {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    border-color: #f2f6f6;
+}
+
+
+/*Cards*/
+
+.container__cartas {
+    width: 100%;
+    height: 675px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.card__pies {
+    width: 350px;
+    margin-top: 100px;
+
+}
+
+.card__relajante {
+    width: 350px;
+    margin-left: 134px;
+    margin-top: 100px;
+
+}
+
+.card__bambu {
+    width: 350px;
+    margin-left: 134px;
+    margin-top: 100px;
+
+
+}
+
+.titulo__card {
+
+    height: 75px;
+    width: auto;
+    background-color: #A3A656;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#precio {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.button {
+
+    height: 45px;
+    width: 150px;
+    border: #A3A656;
+    color: white;
+    background-color: #A3A656;
+    border-radius: 35px 35px 35px 35px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 133px;
+
+}
+
+
+.button:hover {
+    background-color: #384001;
+}
+
+/*Beneficios*/
+
+.container__beneficios {
+
+    height: 770px;
+    width: auto;
+    background-color: #f2f6f6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo__beneficios {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #384001;
+    margin-bottom: 625px;
+
+}
+
+.clase__gold {
+
+    width: 300px;
+    height: 469px;
+
+    margin-top: 165px;
+}
+
+.clase__premium {
+
+    width: 300px;
+    height: 469px;
+    margin-left: 195px;
+    margin-top: 165px;
+
+
+}
+
+.clase__plate {
+
+
+    width: 300px;
+    height: 469px;
+    margin-left: 195px;
+    margin-top: 165px;
+
+}
+
+.circle {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    border: 10px solid #384001;
+    background-color: white;
+}
+
+#tipo__socio {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #384001;
+    margin-top: 5px;
+}
+
+.button__socio {
+
+    height: 50px;
+    width: 300px;
+    background-color: #A3A656;
+    border-radius: 35px 35px 35px 35px;
+    border: #A3A656;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+
+}
+
+.list__beneficio {
+    margin-top: 35px;
+    margin-left: 115px;
+    text-align: left;
+}
+
+.list__beneficio li {
+    font-family: 'Inter' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button__socio:hover {
+    background-color: #384001;
+}
+
+/*Pie de pagina*/
+
+
+footer {
+    background-color: #384001;
+    height: 90px;
+    width: auto;
+}
+
+.barra__navegacion-footer {
+    display: inline-block;
+}
+
+.iconos__politicas li:hover {
+    color: #ffff00
+}
+
+.iconos__politicas {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: 35px;
+
+}
+
+.iconos__politicas li {
+    padding-left: 70px;
+    margin-right: 20px;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #a3a656;
+
+}
+
+.redes__sociales {
+    height: 97px;
+    width: 350px;
+    float: right;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.seguir {
+
+   
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #a3a656;
+    margin-right: 30px;
+    margin-bottom: 5px;
+
+}
+
+.seguir:hover {
+    color: #ffff00
+}
+
+.redes__sociales img {
+    margin-right: 35px;
+}
