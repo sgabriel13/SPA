@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+   
 }
 
 body {
@@ -413,14 +413,14 @@ footer {
 
     list-style-type: none;
     display: inline-block;
-    margin-right: 70px;
+    padding-right: 5px;
     margin-top: 35px;
 
 }
 
 .iconos__politicas li {
     padding-left: 70px;
-    margin-right: 20px;
+    padding-right: 5px;
     display: inline-block;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -448,7 +448,7 @@ footer {
     text-transform: uppercase;
     font-weight: 400;
     color: #a3a656;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 5px;
 
 }
@@ -458,5 +458,5 @@ footer {
 }
 
 .redes__sociales img {
-    margin-right: 35px;
+    margin-right: 25px;
 }
